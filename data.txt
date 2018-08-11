@@ -40,8 +40,8 @@ buat file .gitignore
 
 10. meremote repository
 
-git remote nama_repository url
-contoh : git remote github www.github.com/bla_bla_bla
+git add nama_repository url
+contoh : git add github www.github.com/bla_bla_bla
 
 11. melihat profile git repository yang diremote
 
@@ -49,7 +49,7 @@ git remote -v
 
 12. mempush repository ke github
 
-git push -u nama_repository branch
+git push -u nama_repository_remote branch
 contoh L git push 0u github master
 setelah menggunakan -u tidak perlu menggunakan -u lagi, cukup git push saja
 
