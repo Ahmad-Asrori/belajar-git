@@ -7,4 +7,4 @@ git init nama-folder
 2. menyimpan perubahan ke repository
 
 git add .
-git commit -m "pesan / keterangan"
+git commit -m "pesan / keterangan" 
