@@ -4,7 +4,20 @@ sedang belajar git
 
 git init nama-folder
 
-2. menyimpan perubahan ke repository
+2. melihat status folder
+
+git status
+
+3. menyimpan perubahan ke repository
 
 git add .
-git commit -m "pesan / keterangan" 
+git commit -m "pesan / keterangan"
+
+4. melihat history perubahan
+
+git log 
+git log --oneline
+
+5. melihat perbedaan antar versi
+
+git diff commit1..commmit2
