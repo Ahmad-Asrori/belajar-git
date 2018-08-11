@@ -33,3 +33,26 @@ git reset
 8. menghapus perubahan di working dan staging
 
 git reset --hard
+
+9. menggunakan gitigore agar suatu folder atau file tidak bisa dimasukkan ke staging / git tidak akan mencatat perubahannya
+
+buat file .gitignore
+
+10. meremote repository
+
+git remote nama_repository url
+contoh : git remote github www.github.com/bla_bla_bla
+
+11. melihat profile git repository yang diremote
+
+git remote -v
+
+12. mempush repository ke github
+
+git push -u nama_repository branch
+contoh L git push 0u github master
+setelah menggunakan -u tidak perlu menggunakan -u lagi, cukup git push saja
+
+13. untuk mengclone project dari github
+
+git clone url
