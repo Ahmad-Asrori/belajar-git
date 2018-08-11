@@ -8,16 +8,28 @@ git init nama-folder
 
 git status
 
-3. menyimpan perubahan ke repository
+3. menyimpan perubahan ke staging
 
 git add .
+git add -p (parsial)
+
+4. menyimpan perubahan ke repository
+
 git commit -m "pesan / keterangan"
 
-4. melihat history perubahan
+5. melihat history perubahan
 
 git log 
 git log --oneline
 
-5. melihat perbedaan antar versi
+6. melihat perbedaan antar versi
 
-git diff commit1..commmit2
+git diff commitID..commmitID
+
+7 menghapus perubahan di staging
+
+git reset
+
+8. menghapus perubahan di working dan staging
+
+git reset --hard
